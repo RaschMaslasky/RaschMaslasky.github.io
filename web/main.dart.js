@@ -70561,7 +70561,7 @@ $2:function(a,b){var t,s,r,q,p,o,n,m,l=null
 if(b.b!=null&&b.a===C.Z){t=F.R(a,!1).a
 s=F.R(a,!1).a
 r=S.bt(l,l,l,l,l,X.lF(C.pq,new L.qA("assets/images/Hello.png")),C.L)
-q=L.h(F.e("personalCabinet"),l,l,l,K.m(a,!1).w.e,l)
+q=L.h("",l,l,l,K.m(a,!1).w.e,l)
 p=F.R(a,!1).a
 o=F.R(a,!1).a
 n=K.m(a,!1).x
