@@ -75936,7 +75936,7 @@ case 3:n=b
 m=H.a([],u.s)
 o=u.N
 t=4
-return P.f(n.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getGroupAccessList",P.J(["Content-Type","application/json"],o,o)),$async$lx)
+return P.f(n.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getGroupAccessList",P.J(["Content-Type","application/json"],o,o)),$async$lx)
 case 4:p=b
 if(p==null||B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x).length===0){r=B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x)
 t=1
@@ -75979,7 +75979,7 @@ L.Gg.prototype={
 pc:function(a,b){return this.Rj(a,b)},
 Rj:function(a,b){var t=0,s=P.u(u.z),r,q=2,p,o=[],n=this,m,l,k,j,i,h,g,f
 var $async$pc=P.p(function(c,d){if(c===1){p=d
-t=q}while(true)switch(t){case 0:i=P.jL("http://apps.uco.kz:8100/krj/rest/v2/oauth/token?",0,null)
+t=q}while(true)switch(t){case 0:i=P.jL("https://apps.uco.kz/krj/rest/v2/oauth/token?",0,null)
 h="client"
 g="secret"
 q=4
@@ -76024,7 +76024,7 @@ case 3:l=b
 k=H.a([],u.Of)
 m=u.N
 t=4
-return P.f(l.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getCheckPointDetail",P.J(["Content-Type","application/json"],m,m)),$async$pg)
+return P.f(l.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getCheckPointDetail",P.J(["Content-Type","application/json"],m,m)),$async$pg)
 case 4:p=b
 if(p==null||B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x).length===0){r=k
 t=1
@@ -76064,7 +76064,7 @@ case 4:o=b
 n=H.a([],u.q_)
 h=u.N
 t=5
-return P.f(g.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getAssignments",P.J(["Content-Type","application/json"],h,h)),$async$fD)
+return P.f(g.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getAssignments",P.J(["Content-Type","application/json"],h,h)),$async$fD)
 case 5:m=b
 h=m.e
 l=B.aI(U.aH(h).c.a.h(0,"charset"))
@@ -76100,7 +76100,7 @@ case 4:o=b
 n=H.a([],u.x3)
 j=u.N
 t=5
-return P.f(i.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getAnthropologicalEvidence",P.J(["Content-Type","application/json"],j,j)),$async$h8)
+return P.f(i.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getAnthropologicalEvidence",P.J(["Content-Type","application/json"],j,j)),$async$h8)
 case 5:m=b
 l=C.n.cM(0,B.aI(U.aH(m.e).c.a.h(0,"charset")).a0(0,m.x),null)
 if(J.fV(l)){r=n
@@ -76122,7 +76122,7 @@ m=u.N
 t=4
 return P.f(n.gce(n),$async$pp)
 case 4:t=3
-return P.f(b.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getPersonLocation",P.J(["Content-Type","application/json"],m,m)),$async$pp)
+return P.f(b.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getPersonLocation",P.J(["Content-Type","application/json"],m,m)),$async$pp)
 case 3:l=b
 n=l.e
 m=B.aI(U.aH(n).c.a.h(0,"charset"))
@@ -76160,7 +76160,7 @@ o=u.N
 t=8
 return P.f(p.gce(p),$async$lF)
 case 8:t=7
-return P.f(b.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getPlaces",P.J(["Content-Type","application/json"],o,o)),$async$lF)
+return P.f(b.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getPlaces",P.J(["Content-Type","application/json"],o,o)),$async$lF)
 case 7:n=b
 p=n.e
 o=B.aI(U.aH(p).c.a.h(0,"charset"))
@@ -76253,7 +76253,7 @@ break}o=u.N,n=0
 case 5:if(!(n<a1.gm(p))){t=7
 break}m="{\n        'requestId': '"+H.b(a1.h(p,n).b)+"'\n      }"
 t=8
-return P.f(a2.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getOrder",P.J(["Content-Type","application/json"],o,o),m,null),$async$lD)
+return P.f(a2.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getOrder",P.J(["Content-Type","application/json"],o,o),m,null),$async$lD)
 case 8:l=a5
 if(l==null||B.aI(U.aH(l.e).c.a.h(0,"charset")).a0(0,l.x).length===0){t=6
 break}k=C.n.cM(0,B.aI(U.aH(l.e).c.a.h(0,"charset")).a0(0,l.x),null)
@@ -76292,7 +76292,7 @@ c=u.N
 t=4
 return P.f(d.gce(d),$async$nl)
 case 4:t=3
-return P.f(a0.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getMyRequests",P.J(["Content-Type","application/json"],c,c),null,null),$async$nl)
+return P.f(a0.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getMyRequests",P.J(["Content-Type","application/json"],c,c),null,null),$async$nl)
 case 3:b=a0
 if(b!=null){d=b.e
 c=B.aI(U.aH(d).c.a.h(0,"charset"))
@@ -76348,7 +76348,7 @@ case 4:p=d
 o='        {\n          "userId": "'+H.b(p.e)+'",\n          "transportationRequestPojo": {\n            "requestId": "'+H.b(a.b)+'",\n            "date": "'+T.aQ("yyyy-MM-dd HH:mm:ss.SSS",null).aD(a.d)+'",\n            "from": "'+H.b(a.f)+'",\n            "to": "'+H.b(a.e)+'",\n            "status": "'+H.b(a.c)+'",\n            "createDate": "'+T.aQ("yyyy-MM-dd HH:mm:ss.SSS",null).aD(a.y)+'",\n            "count":"'+H.b(a.r)+'",\n            "comment":"'+H.b(a.x)+'"\n          }\n        }\n        '
 m=u.N
 t=5
-return P.f(l.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/setTransportRequest",P.J(["Content-Type","application/json"],m,m),o,null),$async$nu)
+return P.f(l.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/setTransportRequest",P.J(["Content-Type","application/json"],m,m),o,null),$async$nu)
 case 5:n=d
 r=B.qN(C.n.a0(0,B.aI(U.aH(n.e).c.a.h(0,"charset")).a0(0,n.x)))
 t=1
@@ -76366,7 +76366,7 @@ n=' {\n              "requestId" : "'+H.b(a.b)+'",\n              "check" : "'
 p=n+b+'"\n            }\n        '
 n=u.N
 t=4
-return P.f(m.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/canceledRequestOrOrder",P.J(["Content-Type","application/json"],n,n),p,null),$async$on)
+return P.f(m.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/canceledRequestOrOrder",P.J(["Content-Type","application/json"],n,n),p,null),$async$on)
 case 4:o=d
 r=B.qN(C.n.a0(0,B.aI(U.aH(o.e).c.a.h(0,"charset")).a0(0,o.x)))
 t=1
@@ -76383,7 +76383,7 @@ case 3:m=b
 l=H.a([],u.eG)
 n=u.N
 t=4
-return P.f(m.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getHistoryCourseEating",P.J(["Content-Type","application/json"],n,n)),$async$hw)
+return P.f(m.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getHistoryCourseEating",P.J(["Content-Type","application/json"],n,n)),$async$hw)
 case 4:p=b
 if(p==null||B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x).length===0){r=l
 t=1
@@ -76427,7 +76427,7 @@ case 3:l=b
 k=H.a([],u.E2)
 m=u.N
 t=4
-return P.f(l.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getEatingMenus",P.J(["Content-Type","application/json"],m,m)),$async$pt)
+return P.f(l.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getEatingMenus",P.J(["Content-Type","application/json"],m,m)),$async$pt)
 case 4:p=b
 if(p==null||B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x).length===0){r=k
 t=1
@@ -76453,7 +76453,7 @@ case 3:m=b
 l=H.a([],u.Ue)
 n=u.N
 t=4
-return P.f(m.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getHistoryEatingOrder",P.J(["Content-Type","application/json"],n,n)),$async$pm)
+return P.f(m.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getHistoryEatingOrder",P.J(["Content-Type","application/json"],n,n)),$async$pm)
 case 4:p=b
 if(p==null||B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x).length===0){r=l
 t=1
@@ -76477,7 +76477,7 @@ case 3:n=d
 m='             {\n              "courseEatingId": "'+H.b(a)+'",\n              "assessment": '+H.b(b)+"\n            }\n        "
 o=u.N
 t=4
-return P.f(n.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/setCourseEatingAssessment",P.J(["Content-Type","application/json"],o,o),m,null),$async$pA)
+return P.f(n.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/setCourseEatingAssessment",P.J(["Content-Type","application/json"],o,o),m,null),$async$pA)
 case 4:p=d
 r=B.qN(C.n.a0(0,B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x)))
 t=1
@@ -76494,7 +76494,7 @@ case 3:n=c
 m='    {\n    "eatingOrderPojo":'+C.n.aG(a.M())+"\n    }\n    "
 o=u.N
 t=4
-return P.f(n.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/setEatingOrder",P.J(["Content-Type","application/json"],o,o),m,null),$async$pz)
+return P.f(n.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/setEatingOrder",P.J(["Content-Type","application/json"],o,o),m,null),$async$pz)
 case 4:p=c
 r=B.qN(C.n.a0(0,B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x)))
 t=1
@@ -76511,7 +76511,7 @@ case 3:n=c
 m='    {\n    "orderPojo":'+C.n.aG(a.aip())+"\n    }\n    "
 o=u.N
 t=4
-return P.f(n.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/cancelEatingOrder",P.J(["Content-Type","application/json"],o,o),m,null),$async$iS)
+return P.f(n.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/cancelEatingOrder",P.J(["Content-Type","application/json"],o,o),m,null),$async$iS)
 case 4:p=c
 r=B.qN(C.n.a0(0,B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x)))
 t=1
@@ -76541,7 +76541,7 @@ case 3:m=b
 l=H.a([],u.n1)
 n=u.N
 t=4
-return P.f(m.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getMedicineAndSafetyCheck",P.J(["Content-Type","application/json"],n,n)),$async$hw)
+return P.f(m.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getMedicineAndSafetyCheck",P.J(["Content-Type","application/json"],n,n)),$async$hw)
 case 4:p=b
 if(p==null||B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x).length===0){r=l
 t=1
@@ -76571,7 +76571,7 @@ l=H.a([],u.Si)
 k=H.a([],u.s)
 n=u.N
 t=4
-return P.f(m.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getNotifications",P.J(["Content-Type","application/json"],n,n)),$async$hY)
+return P.f(m.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getNotifications",P.J(["Content-Type","application/json"],n,n)),$async$hY)
 case 4:p=c
 if(p==null||B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x).length===0){r=l
 t=1
@@ -76595,7 +76595,7 @@ case 3:l=b
 k=H.a([],u.Fe)
 m=u.N
 t=4
-return P.f(l.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getNews",P.J(["Content-Type","application/json"],m,m)),$async$hx)
+return P.f(l.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getNews",P.J(["Content-Type","application/json"],m,m)),$async$hx)
 case 4:p=b
 if(p==null||B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x).length===0){r=k
 t=1
@@ -76622,7 +76622,7 @@ case 3:l=b
 k=H.a([],u.Fe)
 m=u.N
 t=4
-return P.f(l.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getArchiveNews",P.J(["Content-Type","application/json"],m,m)),$async$nc)
+return P.f(l.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getArchiveNews",P.J(["Content-Type","application/json"],m,m)),$async$nc)
 case 4:p=b
 if(p==null||B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x).length===0){r=k
 t=1
@@ -76659,7 +76659,7 @@ i.a=m
 l='    {\n      "notificationIds":['+m+"]\n    }\n    "
 i=u.N
 t=4
-return P.f(o.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/setInactiveNotifications",P.J(["Content-Type","application/json"],i,i),l,null),$async$pE)
+return P.f(o.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/setInactiveNotifications",P.J(["Content-Type","application/json"],i,i),l,null),$async$pE)
 case 4:k=c
 i=k.e
 p=B.aI(U.aH(i).c.a.h(0,"charset"))
@@ -76688,7 +76688,7 @@ return P.f(m.ek().bc(new A.a8M(),p),$async$nC)
 case 4:m='             {\n              "requestId": "'+H.b(a.b)+'",\n              "status": "'
 o=m+(b?"APPROVED":"UNAPPROVED")+'"\n            }\n        '
 t=5
-return P.f(l.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/setNotificationAnswer",P.J(["Content-Type","application/json"],p,p),o,null),$async$nC)
+return P.f(l.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/setNotificationAnswer",P.J(["Content-Type","application/json"],p,p),o,null),$async$nC)
 case 5:n=d
 r=B.qN(C.n.a0(0,B.aI(U.aH(n.e).c.a.h(0,"charset")).a0(0,n.x)))
 t=1
@@ -76754,7 +76754,7 @@ m=u.N
 t=4
 return P.f(n.gce(n),$async$ps)
 case 4:t=3
-return P.f(b.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getIssuedEquipment",P.J(["Content-Type","application/json"],m,m)),$async$ps)
+return P.f(b.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getIssuedEquipment",P.J(["Content-Type","application/json"],m,m)),$async$ps)
 case 3:l=b
 if(l==null||B.aI(U.aH(l.e).c.a.h(0,"charset")).a0(0,l.x).length===0){r=null
 t=1
@@ -76784,7 +76784,7 @@ l=u.N
 t=4
 return P.f(m.gce(m),$async$pn)
 case 4:t=3
-return P.f(b.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getUserPPEs",P.J(["Content-Type","application/json"],l,l)),$async$pn)
+return P.f(b.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getUserPPEs",P.J(["Content-Type","application/json"],l,l)),$async$pn)
 case 3:k=b
 if(k==null||B.aI(U.aH(k.e).c.a.h(0,"charset")).a0(0,k.x).length===0){r=null
 t=1
@@ -76816,7 +76816,7 @@ case 3:k=b
 j=H.a([],u.qN)
 l=u.N
 t=4
-return P.f(k.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getCalendarEvents",P.J(["Content-Type","application/json"],l,l)),$async$pi)
+return P.f(k.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getCalendarEvents",P.J(["Content-Type","application/json"],l,l)),$async$pi)
 case 4:p=b
 if(p==null||B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x).length===0){r=null
 t=1
@@ -76852,7 +76852,7 @@ case 3:k=c
 j=H.a([],u.st)
 l=u.N
 t=4
-return P.f(k.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getAllOrders",P.J(["Content-Type","application/json"],l,l),null,null),$async$kn)
+return P.f(k.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getAllOrders",P.J(["Content-Type","application/json"],l,l),null,null),$async$kn)
 case 4:p=c
 if(p!=null){l=p.e
 o=B.aI(U.aH(l).c.a.h(0,"charset"))
@@ -76901,7 +76901,7 @@ return P.f(l.ek().bc(new D.agy(m),p),$async$nD)
 case 4:m='            {\n            "userId": "'+H.b(m.a)+'",\n            "workOrder": "'+H.b(b.db)+'",\n            "laborSpendingPojo": {\n              "factEndDate":"'+H.b(a.c)+'",\n              "factObject":"'+H.b(a.d)+'",\n              "percentCompletion":"'+H.b(a.e)+'",\n              "status":"'
 o=m+(a.e<=100?"IN_PROCESS":"COMPLETED")+'"\n             }\n            }\n        '
 t=5
-return P.f(k.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/setResult",P.J(["Content-Type","application/json"],p,p),o,null),$async$nD)
+return P.f(k.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/setResult",P.J(["Content-Type","application/json"],p,p),o,null),$async$nD)
 case 5:n=d
 if(C.d.F(B.aI(U.aH(n.e).c.a.h(0,"charset")).a0(0,n.x),"OK")){r=!0
 t=1
@@ -76920,7 +76920,7 @@ case 3:n=d
 m='            {\n              "repairOrder":"'+H.b(b.b)+'",\n              "repairLaborSpendingPojo":{\n                "dateAndTime" : "'+T.aQ("yyyy-MM-dd HH:mm:ss.SSS",null).aD(a.c)+'",\n                "percent":"'+H.b(a.d)+'",\n                "status":"'+H.b(a.e)+'"\n              }\n            }\n        '
 o=u.N
 t=4
-return P.f(n.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/setResultRLS",P.J(["Content-Type","application/json"],o,o),m,null),$async$pN)
+return P.f(n.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/setResultRLS",P.J(["Content-Type","application/json"],o,o),m,null),$async$pN)
 case 4:p=d
 if(C.d.F(B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x),"OK")){r=!0
 t=1
@@ -76939,7 +76939,7 @@ case 3:n=d
 m='            {\n              "transportOrder" : "'+H.b(b.b)+'",\n              "transportWork":"'+H.b(b.d.b)+'",\n              "toLaborSpendingPojo":{\n                "dateAndTime" : "'+T.aQ("yyyy-MM-dd HH:mm:ss.SSS",null).aD(a.c)+'",\n                "tripQuantity":"'+H.b(a.e)+'",\n                "milage":"'+H.b(a.d)+'",\n                "turnover":"'+H.b(a.f)+'",\n                "status":"'+H.b(a.r)+'"\n              }\n            }\n        '
 o=u.N
 t=4
-return P.f(n.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/setResultTLS",P.J(["Content-Type","application/json"],o,o),m,null),$async$pQ)
+return P.f(n.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/setResultTLS",P.J(["Content-Type","application/json"],o,o),m,null),$async$pQ)
 case 4:p=d
 if(C.d.F(B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x),"OK")){r=!0
 t=1
@@ -76959,7 +76959,7 @@ n='            {\n              "shiftOrder" : "'+H.b(b.b)+'",\n              "s
 p=n+H.b(c==null?null:c)+',\n              "wosLaborSpendingPojo":{\n                "dateAndTime" : "'+T.aQ("yyyy-MM-dd HH:mm:ss.SSS",null).aD(a.c)+'",\n                "tripQuantity":"'+H.b(a.e)+'",\n                "milage":"'+H.b(a.d)+'",\n                "turnover":"'+H.b(a.f)+'",\n                "status":"'+H.b(a.r)+'",\n                "fact":'+H.b(a.y)+',\n                "uom":"'+H.b(a.x)+'"\n              }\n            }\n        '
 n=u.N
 t=4
-return P.f(m.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/setResultSLS",P.J(["Content-Type","application/json"],n,n),p,null),$async$pP)
+return P.f(m.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/setResultSLS",P.J(["Content-Type","application/json"],n,n),p,null),$async$pP)
 case 4:o=e
 if(C.d.F(B.aI(U.aH(o.e).c.a.h(0,"charset")).a0(0,o.x),"OK")){r=!0
 t=1
@@ -76978,7 +76978,7 @@ case 3:n=d
 m='            {\n              "shiftOrder" : "'+H.b(b.b)+'",\n              "shiftWork":"'+H.b(b.d.b)+'",\n              "wosLaborSpendingPojo":{\n                "dateAndTime" : "'+T.aQ("yyyy-MM-dd HH:mm:ss.SSS",null).aD(a.c)+'",\n                "fact":'+H.b(a.y)+',\n                "uom":"'+H.b(a.x)+'"\n              }\n            }\n        '
 o=u.N
 t=4
-return P.f(n.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/setResultSLSE",P.J(["Content-Type","application/json"],o,o),m,null),$async$pO)
+return P.f(n.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/setResultSLSE",P.J(["Content-Type","application/json"],o,o),m,null),$async$pO)
 case 4:p=d
 if(C.d.F(B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x),"OK")){r=!0
 t=1
@@ -77006,7 +77006,7 @@ case 3:m=b
 l=H.a([],u.nm)
 n=u.N
 t=4
-return P.f(m.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getAttempts2",P.J(["Content-Type","application/json"],n,n),null,null),$async$no)
+return P.f(m.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getAttempts2",P.J(["Content-Type","application/json"],n,n),null,null),$async$no)
 case 4:p=b
 o=C.n.cM(0,B.aI(U.aH(p.e).c.a.h(0,"charset")).a0(0,p.x),null)
 n=J.N(o)
@@ -77031,7 +77031,7 @@ while(true)switch(t){case 0:n=q.a
 t=4
 return P.f(n.gce(n),$async$pB)
 case 4:t=3
-return P.f(c.dM("POST","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/setAttempt",null,'{"testPojo":'+C.n.aG(a.M())+"}",null),$async$pB)
+return P.f(c.dM("POST","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/setAttempt",null,'{"testPojo":'+C.n.aG(a.M())+"}",null),$async$pB)
 case 3:m=c
 n=m.e
 p=B.aI(U.aH(n).c.a.h(0,"charset"))
@@ -77062,7 +77062,7 @@ o=u.N
 t=8
 return P.f(p.gce(p),$async$kq)
 case 8:t=7
-return P.f(b.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getTestingGraphicPassedTests",P.J(["Content-Type","application/json"],o,o)),$async$kq)
+return P.f(b.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getTestingGraphicPassedTests",P.J(["Content-Type","application/json"],o,o)),$async$kq)
 case 7:n=b
 m=C.n.cM(0,B.aI(U.aH(n.e).c.a.h(0,"charset")).a0(0,n.x),null)
 if(J.fV(m)){r=null
@@ -77100,7 +77100,7 @@ o=u.N
 t=8
 return P.f(p.gce(p),$async$kp)
 case 8:t=7
-return P.f(b.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getTestingGraphicRightAnswers",P.J(["Content-Type","application/json"],o,o)),$async$kp)
+return P.f(b.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getTestingGraphicRightAnswers",P.J(["Content-Type","application/json"],o,o)),$async$kp)
 case 7:n=b
 m=C.n.cM(0,B.aI(U.aH(n.e).c.a.h(0,"charset")).a0(0,n.x),null)
 if(J.fV(m)){r=null
@@ -77141,7 +77141,7 @@ o=u.N
 t=8
 return P.f(p.gce(p),$async$ko)
 case 8:t=7
-return P.f(b.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/services/krj_MobileService/getTestingGraphicOverCategoryList",P.J(["Content-Type","application/json"],o,o)),$async$ko)
+return P.f(b.e6("GET","https://apps.uco.kz/krj/rest/v2/services/krj_MobileService/getTestingGraphicOverCategoryList",P.J(["Content-Type","application/json"],o,o)),$async$ko)
 case 7:n=b
 m=C.n.cM(0,B.aI(U.aH(n.e).c.a.h(0,"charset")).a0(0,n.x),null)
 p=J.N(m)
@@ -77183,7 +77183,7 @@ l=u.N
 t=4
 return P.f(m.gce(m),$async$kj)
 case 4:t=3
-return P.f(b.e6("GET","http://apps.uco.kz:8100/krj/rest/v2/userInfo",P.J(["Content-Type","application/json"],l,l)),$async$kj)
+return P.f(b.e6("GET","https://apps.uco.kz/krj/rest/v2/userInfo",P.J(["Content-Type","application/json"],l,l)),$async$kj)
 case 3:k=b
 j=C.n.cM(0,B.aI(U.aH(k.e).c.a.h(0,"charset")).a0(0,k.x),null)
 m=J.N(j)
